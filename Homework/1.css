@@ -1,0 +1,130 @@
+
+
+#past01{
+    display: flex;
+width: 800px;
+    justify-content: space-between;
+}
+
+#card01{
+    width: 20%;
+    height: 80px;
+    background-color: silver;
+
+
+}
+
+#card02{
+    width: 79%;
+    height: 80px;
+    background-color: silver;
+}
+
+#cont1{
+    display: flex;
+
+}
+
+
+#past1{
+    width: 160px;
+
+}
+
+#card1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    background-color: silver;
+
+
+}
+
+#card2{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: silver;
+
+}
+
+#card3{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: silver;
+
+}
+
+
+#past2{
+    display: block;
+    width: 440px;
+    justify-content: space-between;
+
+}
+
+
+#card4{
+
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: silver;
+    margin-left: 10px;
+
+}
+
+#card5{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    height: 510px;
+    background-color: silver;
+
+}
+
+
+#past3{
+    display: block;
+    width: 200px ;
+}
+
+#card6 {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90%;
+    height: 200px;
+    background-color: silver;
+
+
+}
+#card7 {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90%;
+    height: 510px;
+    background-color: silver;
+
+
+}
+
+#card8 {
+    margin-top: 10px;
+
+    width: 800px;
+    height: 150px;
+    background-color: silver;
+
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+
+#past01{
+ width: 300px;
+}
+
+
+}
