@@ -122,9 +122,83 @@ width: 800px;
 
 @media screen and (min-width: 0px) and (max-width: 400px){
 
-#past01{
- width: 300px;
+    #past01{
+        width: 400px;
+       
+    }
+
+    #cont1{
+        display: none;
+    }
+
+#card8{
+
+    width: 400px;
+    height: 90px;
+    margin-top: 5px;
+}
+
+    #media_past1{
+        margin-top: 10px;
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+    }
+
+ #media_card1{
+width: 64%;
+     height: 150px;
+     background-color: silver;
+ }
+
+ #media_card2{
+     width: 34%;
+     height: 150px;
+     background-color: silver;
+ }
+
+
+ #media_card3{
+     margin-top: 10px;
+     width: 400px;
+     height: 600px;
+     background-color: silver;
+ }
+
+
+    #media_card4{
+        margin-top: 10px;
+        width: 400px;
+        height: 200px;
+        background-color: silver;
+    }
+
+
+    #media_past2{
+        margin-top: 10px;
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+    }
+
+    #media_card5{
+        width: 49%;
+        height: 100px;
+        background-color: silver;
+    }
+    #media_card6{
+        width: 49%;
+        height: 100px;
+        background-color: silver;
+    }
+
+    #media_card7{
+        margin-top: 10px;
+        width: 400px;
+        height: 190px;
+        background-color: silver;
+    }
+
 }
 
 
-}

@@ -1,0 +1,289 @@
+#cont1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 1280px;
+
+}
+
+.card2{
+    height: 50px;
+    width: 150px;
+    background-color: silver;
+
+}
+
+#cont2{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card4{
+    height: 50px;
+    width: 150px;
+    background-color: silver;
+    margin: 10px;
+}
+
+#cont4{
+    display: block;
+}
+
+#card5 {
+    height: 350px;
+    width: 1070px;
+    background-color: silver;
+    margin: 10px;
+}
+
+#cont5 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card6 {
+    height: 160px;
+    width: 250px;
+    background-color: silver;
+    margin: 10px;
+}
+
+#cont6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cont7 {
+    margin-top: 40px;
+    width: 817px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+
+.card7{
+    height: 200px;
+    width: 388px;
+    background-color: silver;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+#cont8 {
+    display: block;
+
+}
+
+
+.card8{
+    height: 160px;
+    width: 250px;
+    background-color: silver;
+   margin: 40px 10px 20px 0;
+
+}
+
+#cont9 {
+    margin-top: 60px;
+    width: 800px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#card9 {
+    height: 50px;
+    width: 1100px;
+    background-color: silver;
+    margin: 10px;
+    border-radius: 5px;
+
+
+}
+
+#card10 {
+    height: 40px;
+    width: 250px;
+    background-color: silver;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 400px;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    #cont1 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        padding-bottom: 20px;
+        width: 740px;
+    }
+
+
+    #cont3{
+        display: none;
+    }
+
+    #card5 {
+        height: 350px;
+        width: 740px;
+        background-color: silver;
+        margin: 10px;
+    }
+
+
+    #cont5 {
+        width: 740px;
+        margin-top: 40px;
+        display: flex;
+
+        flex-wrap: wrap;
+    }
+
+    .card6 {
+        margin-bottom: 25px;
+        height: 200px;
+        width:340px;
+        background-color: silver;
+
+    }
+
+    #cont7{
+        display: none;
+    }
+
+
+    .card_media1 {
+        height: 150px;
+        width: 350px;
+        background-color: silver;
+        margin-bottom: 25px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+#media_cont1 {
+    margin-top: 60px;
+    width: 740px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+#cont8{
+    display: none;
+}
+
+
+    #media_cont2{
+        display: flex;
+
+    }
+    .card_media2{
+        width: 350px;
+        height: 70px;
+        margin: 10px;
+        background-color: silver;
+
+
+    }
+    .card_media3{
+        width: 350px;
+        height: 230px;
+        background-color: silver;
+        margin: 10px;
+    }
+    #card9{
+        width: 730px;
+    }
+    #card10{
+        margin-left: 250px;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+    #media_cont4{
+
+    }
+    #cont1{
+        display: none;
+    }
+
+    #media_card5{
+        background-color: silver;
+        width: 100px;
+        height: 25px;
+        border-radius: 8px;
+        margin-left: 140px;
+    }
+    #media_card6{
+        background-color: silver;
+        width: 380px;
+        height: 25px;
+        border-radius: 8px;
+        margin-left: 5px;
+    }
+    #card5{
+        width: 380px;
+        height: 200px;
+        margin-left: 5px;
+    }
+
+    #cont5{
+        width: 400px;
+    }
+    .card6{
+        width: 170px;
+        height: 100px;
+
+    }
+    .card_media1{
+        width: 380px;
+        height: 80px;
+
+    }
+    .card_media_1{
+        width: 80px;
+        height: 30px;
+        background-color: silver;
+        margin-left: 170px;
+        border-radius: 8px;
+
+    }
+
+
+    #media_cont1{
+        width: 390px;
+    }
+    #media_cont2{
+        margin-top: 50px;
+        display: block;
+    }
+    .card_media2{
+        width: 380px;
+        height: 80px;
+    }
+    .card_media3{
+        width: 380px;
+    }
+    #card9{
+width: 380px;
+        height: 30px;
+    }
+    #card10{
+        width: 60px;
+        height: 20px;
+        margin-left: 180px;
+    }
+}

@@ -1,0 +1,69 @@
+#card1{
+    width: 800px;
+    height: 150px;
+    background-color: silver;
+}
+
+
+#cont1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 800px;
+
+}
+
+#card2 {
+    width: 75%;
+    height: 400px;
+    background-color: silver;
+}
+
+
+#card3 {
+    width: 24%;
+    height: 400px;
+    background-color: silver;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+
+
+    body{
+        padding-left: 10px;
+        margin: 0 auto;
+    }
+    #card1{
+        width: 380px;
+        height: 51px;
+        border-radius: 8px;
+        background-color: silver;
+    }
+
+
+    #cont1{
+        display: block;
+        justify-content: space-between;
+        margin-top: 19px;
+        width: 380px;
+
+    }
+
+    #card2 {
+        width: 100%;
+        height: 300px;
+        background-color: silver;
+        border-radius: 8px;
+    }
+
+
+    #card3 {
+        margin-top: 19px;
+        width: 100%;
+        height: 51px;
+        background-color: silver;
+        border-radius: 8px;
+
+    }
+
+}
